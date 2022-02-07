@@ -51,7 +51,7 @@ const Home = () => {
         />
       </S.InputWrapper>
       <S.InputWrapper>
-        <S.Text>Peso Kg</S.Text>
+        <S.Text>Peso em gramas</S.Text>
         <S.Input
           value={peso}
           onChange={(e) => setPeso(Number(e.target.value))}
