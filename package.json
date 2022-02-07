@@ -1,8 +1,8 @@
 {
   "name": "printcost",
-  "productName": "printcost",
+  "productName": "PrintCost",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Easy way to calculate the prices of your 3D prints",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
@@ -19,12 +19,22 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "C:/Users/victo/dev/PrintCost/src/assets/icon/icon.ico"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "printcost"
+            "name": "PrintCost",
+            "authors": [
+              "Victor Augusto Ferreira"
+            ],
+            "description": "Easy way to calculate the prices of your 3D prints",
+            "noMsi": false,
+            "title": "PrintCost",
+            "iconUrl": "C:/Users/victo/dev/PrintCost/src/assets/icon/icon.ico",
+            "setupIcon": "C:/Users/victo/dev/PrintCost/src/assets/icon/icon.ico"
           }
         },
         {
